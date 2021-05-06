@@ -9,7 +9,11 @@
 
 ## Write a short comment describing this function
 ##The function makeCacheMatrix creates a special matrix x object that can cache its inverse.
-
+##x is a square matrix
+##set the matrix
+##get the matrix
+##set the inverse of the matrix
+##get the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
                 inv=NULL
                 set=function(a){
@@ -39,3 +43,4 @@ cacheSolve <- function(x, ...) {
       x$setinv(inv)
       return(inv)
 }
+##The function cachesolve returns the inverse of the matrix x
